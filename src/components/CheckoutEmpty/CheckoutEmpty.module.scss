@@ -1,0 +1,16 @@
+.checkout-empty {
+  text-align: center;
+  padding: var(--spacing-2xl) var(--spacing-md);
+
+  &__heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: var(--spacing-md);
+  }
+
+  &__description {
+    color: #6b7280; /* Gray 500 */
+    margin-bottom: var(--spacing-2xl);
+  }
+}
