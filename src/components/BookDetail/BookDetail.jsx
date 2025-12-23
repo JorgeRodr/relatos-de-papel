@@ -46,7 +46,7 @@ export const BookDetail = ({ book, addToCart }) => {
 
           <div className={styles['book-detail__actions']}>
             <div className={styles['book-detail__price']}>
-              ${book.price}
+              {book.price}€
             </div>
             <Button
               onClick={() => addToCart(book)}

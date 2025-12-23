@@ -14,7 +14,7 @@ export const CheckoutItem = ({ item, removeFromCart, isProcessing }) => {
         <p className={styles["checkout-item__details-quantity"]}>Cantidad: {item.quantity}</p>
       </div>
       <div className={styles["checkout-item__price"]}>
-        <p className={styles["checkout-item__price-amount"]}>${(item.price * item.quantity).toFixed(2)}</p>
+        <p className={styles["checkout-item__price-amount"]}>{(item.price * item.quantity).toFixed(2)}€</p>
         <button
           onClick={() => removeFromCart(item.id)}
           className={styles["checkout-item__remove"]}

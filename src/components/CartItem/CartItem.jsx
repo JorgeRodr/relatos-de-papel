@@ -14,7 +14,7 @@ export const CartItem = ({ item, removeFromCart, isProcessing }) => {
         <p className={styles['cart-item__quantity']}>Cantidad: {item.quantity}</p>
       </div>
       <div className={styles['cart-item__price-container']}>
-        <p className={styles['cart-item__price']}>${(item.price * item.quantity).toFixed(2)}</p>
+        <p className={styles['cart-item__price']}>{(item.price * item.quantity).toFixed(2)}€</p>
         <button
           onClick={() => removeFromCart(item.id)}
           className={styles['cart-item__remove']}

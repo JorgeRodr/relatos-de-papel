@@ -9,7 +9,7 @@ export const CheckoutSummaryCard = ({ cartTotal, handlePayment, isProcessing }) 
       <div className={styles["checkout-summary-card__rows"]}>
         <div className={styles["checkout-summary-card__row"]}>
           <span>Subtotal</span>
-          <span>${cartTotal.toFixed(2)}</span>
+          <span>{cartTotal.toFixed(2)}€</span>
         </div>
         <div className={styles["checkout-summary-card__row"]}>
           <span>Envío</span>
@@ -19,7 +19,7 @@ export const CheckoutSummaryCard = ({ cartTotal, handlePayment, isProcessing }) 
 
       <div className={styles["checkout-summary-card__total"]}>
         <span>Total</span>
-        <span>${cartTotal.toFixed(2)}</span>
+        <span>{cartTotal.toFixed(2)}€</span>
       </div>
 
       <Button

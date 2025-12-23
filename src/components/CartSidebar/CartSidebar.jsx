@@ -59,7 +59,7 @@ export const CartSidebar = () => {
             <div className={styles['cart-sidebar__footer']}>
               <div className={styles['cart-sidebar__summary-row']}>
                 <p>Subtotal</p>
-                <p>${cartTotal.toFixed(2)}</p>
+                <p>{cartTotal.toFixed(2)}€</p>
               </div>
               <p className={styles['cart-sidebar__note']}>
                 Envío e impuestos calculados en el checkout.

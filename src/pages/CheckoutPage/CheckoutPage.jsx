@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import styles from './CheckoutPage.module.scss';
 import { useCart } from '../../context/CartContext';
 import { RoutePaths } from '../../app.constants';
-import { Button } from '../../components/Button/Button';
 import { CheckoutSuccess } from '../../components/CheckoutSuccess/CheckoutSuccess';
 import { CheckoutEmpty } from '../../components/CheckoutEmpty/CheckoutEmpty';
 import { CheckoutItem } from '../../components/CheckoutItem/CheckoutItem';

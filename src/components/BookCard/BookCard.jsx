@@ -32,7 +32,7 @@ export const BookCard = ({ book }) => {
         </div>
         
         <div className={styles['book-card__footer']}>
-          <span className={styles['book-card__price']}>${book.price}</span>
+          <span className={styles['book-card__price']}>{book.price}€</span>
           <span className={styles['book-card__link']}>Ver detalles &rarr;</span>
         </div>
       </div>
